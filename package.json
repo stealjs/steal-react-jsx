@@ -1,0 +1,31 @@
+{
+  "name": "steal-jsx",
+  "version": "0.0.0",
+  "description": "A StealJS plugin that enables importing renderers from `*.jsx` files.",
+  "main": "steal-jsx.js",
+  "scripts": {
+    "test": "npm run jshint && testee test/test.html --browsers firefox --reporter Spec",
+    "jshint": "jshint ./steal-jsx.js --config"
+  },
+  "author": "Bitovi",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.13.3",
+    "steal": "^0.12.4"
+  },
+  "system": {
+    "transpiler": "babel",
+    "babelOptions": {
+      "blacklist": []
+    },
+    "ext": {
+      "jsx": "steal-jsx"
+    }
+  },
+  "devDependencies": {
+    "funcunit": "^3.0.0",
+    "jshint": "^2.8.0",
+    "steal-qunit": "^0.1.1",
+    "testee": "^0.2.2"
+  }
+}
