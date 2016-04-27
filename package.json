@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "^0.13.3",
-    "steal": "^0.12.4"
+    "steal": "^0.16.0"
   },
   "system": {
     "transpiler": "babel",
