@@ -9,10 +9,6 @@
   },
   "author": "Bitovi",
   "license": "MIT",
-  "dependencies": {
-    "react": "^0.13.3",
-    "steal": "^0.16.0"
-  },
   "system": {
     "transpiler": "babel",
     "babelOptions": {
@@ -23,6 +19,8 @@
     }
   },
   "devDependencies": {
+    "react": "^15.0.1",
+    "steal": "^0.16.0",
     "funcunit": "^3.0.0",
     "jshint": "^2.8.0",
     "steal-qunit": "^0.1.1",
