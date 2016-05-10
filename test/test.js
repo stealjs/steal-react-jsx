@@ -1,6 +1,7 @@
 import F from 'funcunit';
 import QUnit from 'steal-qunit';
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
 import rendererFromES6 from './templates/template-es6.jsx';
 import rendererFromJSX from './templates/template.jsx';
 
@@ -16,7 +17,7 @@ QUnit.test('imports a renderer from an es6 export', function() {
     }
   });
 
-  React.render(<HelloMessage name='ES6 World' />,
+  ReactDOM.render(<HelloMessage name='ES6 World' />,
     document.getElementById('qunit-fixture'));
 
    F('#qunit-fixture').text('Hello ES6 World!', 'Correct text is rendered.');
@@ -31,7 +32,7 @@ QUnit.test('imports a renderer from JSX file', function() {
     }
   });
 
-  React.render(<HelloMessage name='Designers' />,
+  ReactDOM.render(<HelloMessage name='Designers' />,
     document.getElementById('qunit-fixture'));
 
    F('#qunit-fixture').text('Hello Designers!', 'Correct text is rendered.');
