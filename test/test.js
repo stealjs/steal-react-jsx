@@ -3,7 +3,6 @@ import QUnit from 'steal-qunit';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// import component from "./app/component.jsx";
 import rendererFromES6 from './templates/es6.jsx';
 import rendererFromJSX from './templates/react-html.jsx';
 

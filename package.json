@@ -2,7 +2,7 @@
   "name": "steal-react-jsx",
   "version": "0.0.2",
   "description": "A StealJS plugin that enables importing reacts `*.jsx` files.",
-  "main": "steal-jsx.js",
+  "main": "steal-react-jsx.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/stealjs/steal-react-jsx.git"
