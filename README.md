@@ -1,6 +1,6 @@
 # steal-react-jsx
 
-[![Build Status](https://travis-ci.org/stealjs/steal-jsx.svg?branch=master)](https://travis-ci.org/stealjs/steal-jsx)
+[![Build Status](https://api.travis-ci.org/stealjs/steal-react-jsx.svg?branch=master)](https://travis-ci.org/stealjs/steal-react-jsx)
 
 This stealJS extension let you steal `*.jsx` files.
 `Steal-react-jsx` use [Babel's react present](http://babeljs.io/docs/plugins/preset-react/) to transform `*.jsx` files.
