@@ -1,5 +1,7 @@
 # steal-react-jsx
 
+[![Build Status](https://travis-ci.org/stealjs/steal-jsx.svg?branch=master)](https://travis-ci.org/stealjs/steal-jsx)
+
 This stealJS extension let you stel `*.jsx` files.
 
 
