@@ -1,6 +1,7 @@
-# steal-jsx
+# steal-react-jsx
 
-Import React renderers from `*.jsx` files.
+This stealJS extension let you stel `*.jsx` files.
+
 
 File contents can take either of these forms:
 
