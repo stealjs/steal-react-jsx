@@ -1,6 +1,6 @@
 {
   "name": "steal-react-jsx",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A StealJS plugin that enables importing reacts `*.jsx` files.",
   "main": "steal-react-jsx.js",
   "repository": {
@@ -14,18 +14,14 @@
   "author": "Bitovi",
   "license": "MIT",
   "system": {
-    "transpiler": "babel",
-    "babelOptions": {
-      "blacklist": []
-    },
     "ext": {
       "jsx": "steal-react-jsx"
     }
   },
   "devDependencies": {
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1",
-    "steal": "^0.16.0",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "steal": "^1.0.0-beta",
     "funcunit": "^3.0.0",
     "jshint": "^2.8.0",
     "steal-qunit": "^0.1.1",
