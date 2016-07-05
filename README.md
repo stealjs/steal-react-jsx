@@ -7,7 +7,7 @@ This stealJS extension let you steal `*.jsx` files.
 
 ## StealJS Support
 
-* Use `steal-react-jsx` version `0.0.4` with `steal` >= `1.0.0`
+* Use `steal-react-jsx` version `0.1.0` with `steal` >= `1.0.0`
 * Use `steal-react-jsx` version `0.0.3` with `steal` < `1.0.0` 
 
 ## Usage
