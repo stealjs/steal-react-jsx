@@ -32,6 +32,6 @@
     "testee": "^0.2.2"
   },
   "engines": {
-    "node": "4.x - 5.x.x"
+    "node": ">= 4.x"
   }
 }
