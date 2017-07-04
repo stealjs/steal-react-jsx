@@ -1,19 +1,21 @@
 export function translate(load) {
-  load.metadata.format = 'es6';
-  
-  // remove cdata if present
-  load.source = load.source.replace('/<!\[CDATA\[.*?\]\]>/gm');
+	load.metadata.format = 'es6';
 
-  // remove leading and traling spaces
-  load.source = load.source.replace(/^\s+|\s+$/gm,'');
+	// remove cdata if present
+	load.source = load.source.replace(/<!\[CDATA\[.*?\]\]>/gm, '');
 
-  // if we found a leading < we expect that we have a proper html
-  if(load.source.substr(0,1) === "<") {
-    load.source = `
-      import React from 'react';
+	// remove leading and traling spaces
+	load.source = load.source.replace(/^\s+|\s+$/gm, '');
 
-      export default function(ctx) {
-        return ${load.source};
-      }`;
-  }
+	// if we found a leading < we expect that we have a proper html
+	if(load.source.substr(0,1) === "<") {
+		load.source = `
+import React from 'react';
+
+export default function(ctx) {
+	return (
+		${load.source}
+	);
+}`;
+	}
 }
