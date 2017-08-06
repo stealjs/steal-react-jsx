@@ -5,6 +5,10 @@
 This stealJS extension let you steal `*.jsx` files.
 `Steal-react-jsx` use [Babel's react present](http://babeljs.io/docs/plugins/preset-react/) to transform `*.jsx` files.
 
+## StealJS Support
+
+* Use `steal-react-jsx` version `0.1.0` with `steal` >= `1.0.0`
+* Use `steal-react-jsx` version `0.0.3` with `steal` < `1.0.0` 
 
 ## Usage
 
