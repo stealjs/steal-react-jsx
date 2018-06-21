@@ -8,6 +8,8 @@
     "url": "git://github.com/stealjs/steal-react-jsx.git"
   },
   "scripts": {
+    "preversion": "npm test",
+    "postpublish": "git push --tags && git push",
     "test": "npm run jshint && testee test/test.html --browsers firefox --reporter Spec",
     "jshint": "jshint ./steal-react-jsx.js --config"
   },
