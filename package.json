@@ -10,6 +10,9 @@
   "scripts": {
     "preversion": "npm test",
     "postpublish": "git push --tags && git push",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
     "test": "npm run jshint && testee test/test.html --browsers firefox --reporter Spec",
     "jshint": "jshint ./steal-react-jsx.js --config"
   },
